@@ -217,6 +217,10 @@ img {
   .team img {
     width: 70%;
   }
+
+  .client-images {
+    flex-direction: column;
+  }
 }
 
 /* Blog */
@@ -249,4 +253,19 @@ img {
 .post .meta {
   margin-bottom: 30px;
 }
+
+.client-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.client-images img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin-right: 10px;
+}
+
 
